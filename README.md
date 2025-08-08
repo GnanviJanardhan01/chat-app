@@ -26,20 +26,20 @@ It allows multiple users to join a chat room and exchange messages instantly wit
 - **Real-time Communication:** Flask-SocketIO
 
 ---
-## 📂 Project Structure
+#Project structure
 talksy/
+├── src/                    # Source code folder
+│   ├── app.py              # Main Flask app
+│   └── templates/
+│       └── index.html
 │
 ├── static/
-│ ├── css/
-│ │ └── style.css # Styling for the chat UI
-│ ├── js/
-│ │ └── script.js # Frontend Socket.IO logic
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
 │
-├── templates/
-│ └── index.html # Chat page
-│
-├── app.py # Flask server with Socket.IO integration
-├── requirements.txt # Python dependencies
+├── requirements.txt
 └── README.md
 
 
