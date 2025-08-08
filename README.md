@@ -26,20 +26,11 @@ It allows multiple users to join a chat room and exchange messages instantly wit
 - **Real-time Communication:** Flask-SocketIO
 
 ---
-#Project structure
-talksy/
-├── src/                    # Source code folder
-│   ├── app.py              # Main Flask app
-│   └── templates/
-│       └── index.html
-│
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── script.js
-│
-├── requirements.txt
-└── README.md
+## Run the server 
+- python app.py
+  
+- **The app will be available at:**
+  http://127.0.0.1:5000/
+
 
 
