@@ -1,0 +1,38 @@
+# Ignore Python virtual environment
+chat_env/
+env/
+venv/
+ENV/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Environment variables and config secrets
+.env
+
+# Compiled files
+*.so
+*.dll
+*.exe
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
